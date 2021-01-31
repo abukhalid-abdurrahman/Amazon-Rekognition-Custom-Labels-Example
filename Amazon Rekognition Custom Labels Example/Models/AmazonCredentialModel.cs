@@ -1,4 +1,4 @@
-﻿namespace Amazon_Rekognition_Custom_Labels_Example.Models
+﻿namespace AwsRekognitionCustomLabels.Models
 {
     public class AmazonCredentialsModel
     {

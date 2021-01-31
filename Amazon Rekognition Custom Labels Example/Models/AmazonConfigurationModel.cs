@@ -1,7 +1,10 @@
-﻿namespace Amazon_Rekognition_Custom_Labels_Example.Models
+﻿using Amazon;
+
+namespace AwsRekognitionCustomLabels.Models
 {
     public class AmazonConfigurationModel
     {
-        
+        public string ProfileName { get; set; }
+        public RegionEndpoint RegionEndpoint { get; set; }
     }
 }

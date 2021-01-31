@@ -1,7 +1,11 @@
-﻿namespace Amazon_Rekognition_Custom_Labels_Example.Services.CustomLabelsRekognition
+﻿using System.Threading.Tasks;
+using Amazon.Rekognition.Model;
+
+namespace AwsRekognitionCustomLabels.Services.CustomLabelsRekognition
 {
     public interface ICustomLabelsRekognitionAccess
     {
-        
+        Task<DetectCustomLabelsResponse> GetDetectionCustomLabelsResponseAsync(DetectCustomLabelsRequest customLabelsRequest);
+        DetectCustomLabelsRequest CreateDetectCustomLabelsRequest(Image image);
     }
 }

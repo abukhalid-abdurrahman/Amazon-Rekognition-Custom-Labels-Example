@@ -1,10 +1,10 @@
 ﻿using Amazon.Runtime.CredentialManagement;
 
-namespace Amazon_Rekognition_Custom_Labels_Example.Contexts
+namespace AwsRekognitionCustomLabels.Contexts
 {
-    public class CredentialsContext
+    public class CredentialContext
     {
-        public void SetCredentials(Models.AmazonCredentialsModel credentialsModel)
+        public void SetCredential(Models.AmazonCredentialsModel credentialsModel)
         {
             var option = new CredentialProfileOptions()
             {

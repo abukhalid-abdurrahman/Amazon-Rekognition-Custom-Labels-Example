@@ -1,7 +1,9 @@
-﻿namespace Amazon_Rekognition_Custom_Labels_Example.Models
+﻿using Amazon.Rekognition.Model;
+
+namespace AwsRekognitionCustomLabels.Models
 {
     public class RekognitionSettingsModel
     {
-        
+        public string ProjectNameArn { get; set; }
     }
 }
